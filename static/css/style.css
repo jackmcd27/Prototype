@@ -16,3 +16,30 @@
       height: 5px;
       padding-right:1000px;
 }
+.graybg{
+    background-color: lightgray;
+}
+.rowheight150{
+    height: 150px;
+}
+.pad50{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.padtop25{
+    padding-top: 25px;
+}
+.padleft100{
+    padding-left: 100px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.hr{
+    height: 25px;
+}
+.padtop75{
+    padding-top 75px;
+}

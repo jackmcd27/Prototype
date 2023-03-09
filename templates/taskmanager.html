@@ -12,21 +12,20 @@
 <!-- This code adds a background image -->
 
 <!-- The code below is for the nav bar, with the first chunk creating the KPMG logo -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="static/images/KPMG_Logo2.png" width="100" height="45" alt=""></a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="static/images/KPMG_Logo2.png" width="100" height="45" alt="KPMG logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
 
-<!-- This code creates the settings icon -->
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
 
 
           <!-- This code chunk creates the settings bar -->
-        <a class="nav-link" href="#"> <img src=static/images/settings.png width="60" height="60" alt=""> </a>
+        <a class="nav-link" href="#"> <img src=static/images/settings.png width="60" height="60" alt="Settings logo"> </a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -37,19 +36,19 @@
           <!-- This chunk creates the profile picture in the nav bar -->
       </li>
         <li class="nav-item active">
-        <a class="nav-link " href="#">  <img src=static/images/pro_pic.png width="60" height="50" alt=""> </a>
+        <a class="nav-link " href="#">  <img src=static/images/pro_pic.png width="60" height="50" alt="Profile Picture"> </a>
       </li>
     </ul>
   </div>
 </nav>
 <!-- This code creates the row that has the date and date selection as well as the select date text -->
-  <div class = "container">
-      <div class="row">
-          <div class = "col-2 main-heading">
+  <div class = "container pad50">
+      <div class="row graybg padtop25">
+          <div class = "col-2 main-heading"> <!-- Unsure why the text doesn't bold here -->
                   Select Date:
           </div>
           <!-- This is the dropdown to select the month !-->
-         <div class="dropdown col-3">
+         <div class="dropdown col-2">
   <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Month
   </button>
@@ -61,7 +60,7 @@
         <a class="dropdown-item" href="#">Something else here</a>
     </div>
           <!-- This chunk selects the day !-->
-    <div class="dropdown col-3">
+    <div class="dropdown col-2">
       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Day
       </button>
@@ -72,7 +71,7 @@
       </div>
     </div>
           <!-- This chunk selects the year -->
-          <div class="dropdown col-3">
+          <div class="dropdown col-2">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Year
               </button>
@@ -81,6 +80,80 @@
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
+          </div>
+          <button type="button" class="btn btn-primary col-2">Select</button>
+      </div>
+      <div class="row graybg padtop25">
+          <div class="col-6 padleft100 bold">
+              Selected Date 1
+          </div>
+          <div class="col-6 padleft100 bold">
+               Time of event 1
+          </div>
+      </div>
+      <div class = "row graybg padtop25">
+          <div class=padleft100>
+              <u>Contact name 1</u>
+          </div>
+      </div>
+      <div class="row graybg">
+          <div class="padleft100">
+              Description of position held 1
+          </div>
+      </div>
+      <div class="row graybg">
+          <div class="padleft100">
+              Email of the contact name 1
+          </div>
+      </div>
+      <div class="row graybg padtop25">
+          <div class="padleft100 col-6">
+              Location of Event 1
+          </div>
+          <div class="padleft100 col-6 bold">
+              Room number of Event 1
+          </div>
+      </div>
+      <div class="row graybg padtop25">
+          <div class="padleft100">
+              Description of event 1
+          </div>
+          <hr class="hr">
+      </div>
+       <div class="row graybg padtop25 bold">
+          <div class="col-6 padleft100">
+              Selected Date 2
+          </div>
+          <div class="col-6 padleft100 bold">
+               Time of event 2
+          </div>
+      </div>
+      <div class = "row graybg padtop25">
+          <div class=padleft100>
+              <u>Contact name 2</u>
+          </div>
+      </div>
+      <div class="row graybg">
+          <div class="padleft100">
+              Description of position held 2
+          </div>
+      </div>
+      <div class="row graybg">
+          <div class="padleft100">
+              Email of the contact name 2
+          </div>
+      </div>
+      <div class="row graybg padtop25">
+          <div class="padleft100 col-6">
+              Location of Event 2
+          </div>
+          <div class="padleft100 col-6 bold">
+              Room number of Event 2
+          </div>
+      </div>
+      <div class="row graybg padtop25 rowheight150">
+          <div class="padleft100">
+              Description of event 2
           </div>
       </div>
   </div>

@@ -44,7 +44,7 @@
 <!-- This code creates the row that has the date and date selection as well as the select date text -->
   <div class = "container pad50">
       <div class="row graybg padtop25">
-          <div class = "col-2 main-heading">
+          <div class = "col-2 main-heading"> <!-- Unsure why the text doesn't bold here -->
                   Select Date:
           </div>
           <!-- This is the dropdown to select the month !-->
@@ -59,7 +59,17 @@
         <a class="dropdown-item" href="#">Another action</a>
         <a class="dropdown-item" href="#">Something else here</a>
     </div>
-
+          <!-- This chunk selects the day !-->
+    <div class="dropdown col-2">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Day
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
           <!-- This chunk selects the year -->
           <div class="dropdown col-2">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,46 +83,80 @@
           </div>
           <button type="button" class="btn btn-primary col-2">Select</button>
       </div>
-      <div class="row graybg padtop25 rowheight100">
-          <div class="col-6 padleft25"> <!-- This inserts the calandar -->
-              <img src=static/images/calandar.png width="600" height="400" alt="calandar" class="box padleft25">
-          </div> <!-- This inserts the text showing the total number of students -->
-          <div class="col-6 padtop25 textbox rowheight100 whitebg">
-              Number of Events (Monthly):
-              <div class="bold">
-                  25
-              </div>
-              </div>
+      <div class="row graybg padtop25">
+          <div class="col-6 padleft100 bold">
+              Selected Date 1
           </div>
-      <div class="row graybg padtop25 rowheight100">
-          <div class = "col-6 padleft25">
+          <div class="col-6 padleft100 bold">
+               Time of event 1
           </div>
-          <div class="col-6 padtop25 textbox rowheight100 whitebg">
-              Number of Students Total:
-              <div class="bold">
-                  480
-              </div>
       </div>
-      </div>
-       <div class="row graybg padtop25 rowheight100">
-          <div class = "col-6 padleft25">
+      <div class = "row graybg padtop25">
+          <div class=padleft100>
+              <u>Contact name 1</u>
           </div>
-          <div class="col-6 padtop25 textbox rowheight100 whitebg">
-              Number of Events Today:
-              <div class="bold">
-                  1
-              </div>
       </div>
-      </div>
-       <div class="row graybg padtop25 rowheight300">
-           <div class="col-6 padtop25">
-           </div>
-           <div class = "col-6 padtop25 ">
-                 <img src=static/images/taskmanager_graph.png width="600" height="175" alt="graph"
+      <div class="row graybg">
+          <div class="padleft100">
+              Description of position held 1
           </div>
-     </div>
-
-</div>
+      </div>
+      <div class="row graybg">
+          <div class="padleft100">
+              Email of the contact name 1
+          </div>
+      </div>
+      <div class="row graybg padtop25">
+          <div class="padleft100 col-6">
+              Location of Event 1
+          </div>
+          <div class="padleft100 col-6 bold">
+              Room number of Event 1
+          </div>
+      </div>
+      <div class="row graybg padtop25">
+          <div class="padleft100">
+              Description of event 1
+          </div>
+          <hr class="hr">
+      </div>
+       <div class="row graybg padtop25 bold">
+          <div class="col-6 padleft100">
+              Selected Date 2
+          </div>
+          <div class="col-6 padleft100 bold">
+               Time of event 2
+          </div>
+      </div>
+      <div class = "row graybg padtop25">
+          <div class=padleft100>
+              <u>Contact name 2</u>
+          </div>
+      </div>
+      <div class="row graybg">
+          <div class="padleft100">
+              Description of position held 2
+          </div>
+      </div>
+      <div class="row graybg">
+          <div class="padleft100">
+              Email of the contact name 2
+          </div>
+      </div>
+      <div class="row graybg padtop25">
+          <div class="padleft100 col-6">
+              Location of Event 2
+          </div>
+          <div class="padleft100 col-6 bold">
+              Room number of Event 2
+          </div>
+      </div>
+      <div class="row graybg padtop25 rowheight150">
+          <div class="padleft100">
+              Description of event 2
+          </div>
+      </div>
   </div>
   </body>
 </html>
+

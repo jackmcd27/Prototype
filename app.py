@@ -7,6 +7,10 @@ app = Flask(__name__)
 def hello_world():  # put application's code here
     return 'Hello World!'
 
+@app.route('/dailyschedule')
+def dailyschedule():  # put application's code here
+    return render_template('dailyschedule.html')
+
 @app.route('/taskmanager')
 def taskmanager():  # put application's code here
     return render_template('taskmanager.html')
